@@ -1,0 +1,57 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.contai {
+    position: relative;
+    height: 100vh;
+    background-image: url('heastopper-papel\ de\ parede.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(63, 59, 59, 0.5); /* Cor cinza com 50% de opacidade */
+}
+
+    .texto{
+        display: flex;
+    }
+  
+    img{
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .texto1 {
+        color: rgb(0, 0, 0);
+        text-align: justify;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .texto2 {
+        color: rgb(0, 0, 0);
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+    }
+      .vermelho {
+        color: rgb(0, 0, 0);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.5rem;
+      }
+      .contador {
+        width: 650px; /* Largura do quadrado */
+        height: 100px; /* Altura do quadrado */
+        border: 5px solid #6b6b6b; /* Borda do quadrado */
+        border-radius: 10px; /* Bordas arredondadas */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra */}
+         
+   
+    
