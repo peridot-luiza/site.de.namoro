@@ -1,60 +1,87 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Arial", sans-serif;
+  background-color: #5858584b;
 }
 
 .contai {
-    position: relative;
-    height: 100vh;
-    background-image: url('heastopper-papel\ de\ parede.png'); /* Substitua pelo caminho da sua imagem */
-    background-size: cover;
-    background-position: center;
+  position: relative;
+  height: 100%vh; 
+  background-image: url("heastopper-papel de parede.png");
+  background-size: cover; /* ou contain */
+  background-position: center;
 }
 
 .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(63, 59, 59, 0.5); /* Cor cinza com 50% de opacidade */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(63, 59, 59, 0.5);
 }
 
-    .texto{
-        display: flex;
-    }
+nav {
+  background-color: rgba(104, 10, 10, 0.7);
+  padding: 1px;
+  text-align: center;
+  font-family: monospace;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 3rem; 
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra no texto */
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.text{
+    font-family: cursive;
+}
+
+.texto2 {
+  color: #333;
+  text-align: justify;
+  font-size: 1.5rem; 
+  margin: 10px 0;
+  line-height: 1.6; 
+}
+
+img {
+  width: 100%; /* Ajusta a largura */
+  max-width: 400px; /* Limita a largura máxima */
+  height: auto; /* Mantém a proporção */
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.img1 {
+  width: 175px;
+  border-radius: 10px;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+/* estilo para o contador */
+.contador {
+  width: 950px; /* Largura do quadrado */
+  height: 100px; /* Altura do quadrado */
+  border: 5px solid #635f3e; /* Borda do quadrado */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra */
+  font-family: cursive;
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
   
-    img{
-        height: 175px;
-        border-radius: 10px;
-        
-    }
-     
-
-
-    .texto1 {
-        color: rgb(0, 0, 0);
-        text-align: justify;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    .texto2 {
-        color: rgb(0, 0, 0);
-        text-align: justify;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.1rem;
-    }
-      .vermelho {
-        color: rgb(0, 0, 0);
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 1.5rem;
-      }
-      .contador {
-        width: 650px; /* Largura do quadrado */
-        height: 100px; /* Altura do quadrado */
-        border: 5px solid #6b6b6b; /* Borda do quadrado */
-        border-radius: 10px; /* Bordas arredondadas */
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra */}
-         
-   
-    
+}
